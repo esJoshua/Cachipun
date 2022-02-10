@@ -1,6 +1,6 @@
 const numberOfGames = parseInt(prompt("¡Cuantas veces deseas jugar?"));
 
-for (let count = 1; count <= numberOfGames; count = count + 1) {
+for (let count = 1; count <= numberOfGames; count++) {
   console.log(`Partida ${count}`);
   // Solicitud jugada del usuario
   let userChoice = parseInt(
