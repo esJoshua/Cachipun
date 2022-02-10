@@ -10,16 +10,16 @@ for (let count = 1; count <= numberOfGames; count = count + 1) {
                                                  ( 3 ) Papel.   `)
   );
   // Validación  y se le asigna un nombre a cada número para mayor facilidad en consola
-  switch (true) {
-    case userChoice == 1:
+  switch (userChoice) {
+    case 1:
       userChoice = "Tijera";
       console.log(`El Usuario jugó ${userChoice}`);
       break;
-    case userChoice == 2:
+    case 2:
       userChoice = "Piedra";
       console.log(`El Usuario jugó ${userChoice}`);
       break;
-    case userChoice == 3:
+    case 3:
       userChoice = "Papel";
       console.log(`El Usuario jugó ${userChoice}`);
       break;
